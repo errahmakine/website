@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خدمات الرجال - مركز الرحمة للترويض الطبي</title>
+    <meta name="description" content="خدمات العلاج الطبيعي والتدليك الطبي للرجال في مركز الرحمة. يقدمها الأخصائي بن حمو حاصل على 8 شهادات معتمدة.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <!-- إضافة Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- زر تبديل اللغة -->
+    <div class="lang-switcher">
+        <button id="langBtn" class="lang-btn">
+            <i class="fas fa-globe"></i>
+            <span id="langText">FR</span>
+        </button>
+    </div>
+
+    <!-- رأس الصفحة -->
+    <header class="header">
+        <div class="container">
+            <!-- الشعار الكبير في الوسط -->
+            <div class="logo-container">
+                <div class="main-logo">
+                    <!-- مكان للشعار - يمكنك إضافة صورتك هنا -->
+                    <div class="logo-image-placeholder">
+                        <img src="assets/logo.png" alt="شعار مركز الرحمة للترويض الطبي" class="logo-img">
+                    </div>
+                    <div class="logo-text">
+                        <h1 class="logo-arabic">الرحمة للترويض الطبي</h1>
+                        <h2 class="logo-french">Errahma</h2>
+                        <p class="logo-subtitle">CENTRE DE KINESITHERAPIE & MASSAGE MEDICALE A DOMICILE</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- قائمة التنقل -->
+            <nav class="nav-menu">
+                <button class="nav-toggle" id="navToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-list" id="navList">
+                    <li><a href="index.html" data-ar="الرئيسية" data-fr="Accueil">الرئيسية</a></li>
+                    <li><a href="services-men.html" class="active" data-ar="خدمات الرجال" data-fr="Services Hommes">خدمات الرجال</a></li>
+                    <li><a href="services-women.html" data-ar="خدمات النساء" data-fr="Services Femmes">خدمات النساء</a></li>
+                    <li><a href="index.html#testimonials" data-ar="آراء العملاء" data-fr="Témoignages">آراء العملاء</a></li>
+                    <li><a href="index.html#contact" data-ar="اتصل بنا" data-fr="Contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- القسم الرئيسي -->
+    <main>
+        <!-- قسم المقدمة -->
+        <section class="section page-header">
+            <div class="container">
+                <h1 class="page-title" data-ar="خدمات الرجال" data-fr="Services pour Hommes">خدمات الرجال</h1>
+                <p class="page-subtitle" data-ar="يقدمها الأخصائي بن حمو" data-fr="Offerts par Ben hmou">يقدمها الأخصائي بن حمو</p>
+            </div>
+        </section>
+
+        <!-- قسم بطاقات تعريفية -->
+<!-- قسم بطاقات حسن التعريفية -->
+<section class="section cards-section">
+    <div class="container">
+        <h2 class="section-title" data-ar="البطاقات التعريفية" data-fr="Cartes d'Identification">البطاقات التعريفية</h2>
+        <div class="swiper cards-swiper">
+            <div class="swiper-wrapper cards-track">
+                <!-- البطاقات ستضاف هنا عبر JavaScript -->
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+        <!-- قسم الخدمات -->
+        <section class="section services-section">
+            <div class="container">
+                <h2 class="section-title" data-ar="الخدمات المقدمة" data-fr="Services Proposés">الخدمات المقدمة</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-hands"></i>
+                        </div>
+                        <h3 data-ar="التدليك التايلاندي" data-fr="Massage Thaïlandais">التدليك التايلاندي</h3>
+                        <p data-ar="تدليك تقليدي تايلاندي يعمل على تحسين مرونة الجسم وتخفيف التوتر العضلي." data-fr="Massage traditionnel thaïlandais pour améliorer la flexibilité corporelle et réduire les tensions musculaires.">تدليك تقليدي تايلاندي يعمل على تحسين مرونة الجسم وتخفيف التوتر العضلي.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-stethoscope"></i>
+                        </div>
+                        <h3 data-ar="التدليك العلاجي" data-fr="Massage Thérapeutique">التدليك العلاجي</h3>
+                        <p data-ar="تدليك طبي متخصص لعلاج آلام العضلات والمفاصل وتحسين الوظيفة الحركية." data-fr="Massage médical spécialisé pour traiter les douleurs musculaires et articulaires et améliorer la fonction motrice.">تدليك طبي متخصص لعلاج آلام العضلات والمفاصل وتحسين الوظيفة الحركية.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-spa"></i>
+                        </div>
+                        <h3 data-ar="التدليك الاسترخائي" data-fr="Massage Relaxant">التدليك الاسترخائي</h3>
+                        <p data-ar="تدليك هادف لتخفيف التوتر والإجهاد وتحسين الصحة النفسية والعقلية." data-fr="Massage conçu pour soulager le stress et la fatigue et améliorer la santé mentale.">تدليك هادف لتخفيف التوتر والإجهاد وتحسين الصحة النفسية والعقلية.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-user-nurse"></i>
+                        </div>
+                        <h3 data-ar="العلاج بالكؤوس (الحجامة)" data-fr="Thérapie par Ventouses">العلاج بالكؤوس (الحجامة)</h3>
+                        <p data-ar="علاج تقليدي باستخدام الكؤوس لتحسين الدورة الدموية وتخفيف الآلام المزمنة." data-fr="Thérapie traditionnelle utilisant des ventouses pour améliorer la circulation sanguine et soulager les douleurs chroniques.">علاج تقليدي باستخدام الكؤوس لتحسين الدورة الدموية وتخفيف الآلام المزمنة.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3 data-ar="الرعاية المنزلية" data-fr="Soins à Domicile">الرعاية المنزلية</h3>
+                        <p data-ar="خدمات رعاية صحية شاملة في منزلك للمرضى وكبار السن." data-fr="Services de soins de santé complets à domicile pour patients et personnes âgées.">خدمات رعاية صحية شاملة في منزلك للمرضى وكبار السن.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-first-aid"></i>
+                        </div>
+                        <h3 data-ar="الإسعافات الأولية" data-fr="Secourisme">الإسعافات الأولية</h3>
+                        <p data-ar="تقديم الإسعافات الأولية الطارئة والرعاية الفورية للحالات الصحية الطارئة." data-fr="Fourniture de premiers soins d'urgence et de soins immédiats pour les situations de santé critiques.">تقديم الإسعافات الأولية الطارئة والرعاية الفورية للحالات الصحية الطارئة.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h3 data-ar="الرعاية المنزلية للمسنين" data-fr="Accompagnement à Domicile">الرعاية المنزلية للمسنين</h3>
+                        <p data-ar="رعاية متخصصة للمسنين في منازلهم مع الاهتمام بجميع احتياجاتهم الصحية." data-fr="Soins spécialisés pour personnes âgées à domicile avec attention à tous leurs besoins de santé.">رعاية متخصصة للمسنين في منازلهم مع الاهتمام بجميع احتياجاتهم الصحية.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-fire-extinguisher"></i>
+                        </div>
+                        <h3 data-ar="المناشف المضادة للحريق" data-fr="Serviettes Antifeu">المناشف المضادة للحريق</h3>
+                        <p data-ar="استخدام تقنيات ومعدات متخصصة للوقاية من الحريق في المنزل." data-fr="Utilisation de techniques et d'équipements spécialisés pour la prévention des incendies à domicile.">استخدام تقنيات ومعدات متخصصة للوقاية من الحريق في المنزل.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم الشهادات -->
+        <!-- قسم الشهادات -->
+<section class="section certificates-section">
+    <div class="container">
+        <h2 class="section-title" data-ar="شهادات حسن تجرامت" data-fr="Certificats de Tajerramat Hassan">شهادات حسن تجرامت</h2>
+        <p class="section-subtitle" data-ar="8 شهادات معتمدة من أكاديمية التجارة الإلكترونية بمراكش" data-fr="8 certificats accrédités de l'E-commerce Academy de Marrakech">8 شهادات معتمدة من أكاديمية التجارة الإلكترونية بمراكش</p>
+        
+        <div class="swiper certificates-swiper">
+            <div class="swiper-wrapper certificates-track">
+                <!-- الشهادات ستضاف هنا عبر JavaScript -->
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+        <!-- قسم آراء العملاء -->
+        <section class="section testimonials-section">
+            <div class="container">
+                <h2 class="section-title" data-ar="آراء عملائنا عن خدمات الرجال" data-fr="Témoignages sur Nos Services pour Hommes">آراء عملائنا عن خدمات الرجال</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="client-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="client-info">
+                                <h4 data-ar="أحمد المعروف" data-fr="Ahmed Al-Maarouf">أحمد المعروف</h4>
+                                <p data-ar="مريض علاج طبيعي" data-fr="Patient en Kinésithérapie">مريض علاج طبيعي</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text" data-ar="خدمة ممتازة ومحترفة. الأخصائي حسن كان دقيقاً في تشخيص حالتي ووضع خطة علاج مناسبة. تحسنت حالتي بشكل ملحوظ بعد الجلسات الأولى. أنصح به بشدة." data-fr="Service excellent et professionnel. Le spécialiste Hassan était précis dans le diagnostic de mon état et a établi un plan de traitement approprié. Mon état s'est considérablement amélioré après les premières séances. Je le recommande vivement.">خدمة ممتازة ومحترفة. الأخصائي حسن كان دقيقاً في تشخيص حالتي ووضع خطة علاج مناسبة. تحسنت حالتي بشكل ملحوظ بعد الجلسات الأولى. أنصح به بشدة.</p>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="client-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="client-info">
+                                <h4 data-ar="يوسف العلوي" data-fr="Youssef Al-Alaoui">يوسف العلوي</h4>
+                                <p data-ar="مريض إصابة رياضية" data-fr="Patient avec Blessure Sportive">مريض إصابة رياضية</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text" data-ar="بعد إصابتي الرياضية، ساعدني الأخصائي حسن على استعادة حركتي وقوتي. خطة العلاج كانت شاملة والنتائج مذهلة. الآن عدت لممارسة رياضتي المفضلة. شكراً جزيلاً." data-fr="Après ma blessure sportive, le spécialiste Hassan m'a aidé à retrouver ma mobilité et ma force. Le plan de traitement était complet et les résultats sont impressionnants. Je suis maintenant de retour à mon sport préféré. Merci beaucoup.">بعد إصابتي الرياضية، ساعدني الأخصائي حسن على استعادة حركتي وقوتي. خطة العلاج كانت شاملة والنتائج مذهلة. الآن عدت لممارسة رياضتي المفضلة. شكراً جزيلاً.</p>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="client-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="client-info">
+                                <h4 data-ar="محمد الكبير" data-fr="Mohamed Al-Kabir">محمد الكبير</h4>
+                                <p data-ar="ابن مريض مسن" data-fr="Fils de Patient Âgé">ابن مريض مسن</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text" data-ar="خدمة الرعاية المنزلية لوالدي المسن كانت ممتازة. الأخصائي حسن كان متعاوناً ومتفهماً لاحتياجات والدي الصحية. نرى تحسناً ملحوظاً في حالته. الشكر الجزيل للفريق." data-fr="Le service de soins à domicile pour mon père âgé était excellent. Le spécialiste Hassan était coopératif et comprenait les besoins de santé de mon père. Nous constatons une amélioration notable de son état. Merci beaucoup à l'équipe.">خدمة الرعاية المنزلية لوالدي المسن كانت ممتازة. الأخصائي حسن كان متعاوناً ومتفهماً لاحتياجات والدي الصحية. نرى تحسناً ملحوظاً في حالته. الشكر الجزيل للفريق.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم الاتصال -->
+        <section class="section cta-section">
+            <div class="container">
+                <h2 class="cta-title" data-ar="احجز موعدك الآن" data-fr="Réservez Votre Rendez-vous Maintenant">احجز موعدك الآن</h2>
+                <p class="cta-text" data-ar="اتصل بنا للحصول على استشارة مجانية وتحديد الموعد المناسب لك" data-fr="Contactez-nous pour une consultation gratuite et fixer le rendez-vous qui vous convient">اتصل بنا للحصول على استشارة مجانية وتحديد الموعد المناسب لك</p>
+                <div class="cta-buttons">
+                    <a href="tel:+212775641139" class="btn btn-primary">
+                        <i class="fas fa-phone-alt"></i>
+                        <span data-ar="اتصال هاتفي" data-fr="Appel Téléphonique">اتصال هاتفي</span>
+                    </a>
+                    <a href="https://wa.me/212775641139" target="_blank" class="btn btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                        <span data-ar="واتساب" data-fr="WhatsApp">واتساب</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- تذييل الصفحة -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3 class="logo-arabic">الرحمة للترويض الطبي</h3>
+                    <p class="logo-french">Errahma</p>
+                    <p class="logo-subtitle">CENTRE DE KINESITHERAPIE & MASSAGE MEDICALE A DOMICILE</p>
+                </div>
+                
+                <div class="footer-info">
+                    <p data-ar="© 2026 مركز الرحمة للترويض الطبي. جميع الحقوق محفوظة." data-fr="© 2026 Centre Errahma de Kinésithérapie. Tous droits réservés.">© 2026 مركز الرحمة للترويض الطبي. جميع الحقوق محفوظة.</p>
+                    <p data-ar="مراكش، المغرب" data-fr="Marrakech, Maroc">مراكش، المغرب</p>
+                    <p data-ar="تأسس المركز من قبل بن حمو " data-fr="Fondé par Ben hmou ">تأسس المركز من قبل بن حمو </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- إضافة Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>

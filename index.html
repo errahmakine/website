@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مركز الرحمة للترويض الطبي - Errahma Centre de Kinésithérapie</title>
+    <meta name="description" content="مركز الرحمة للترويض الطبي - خدمات العلاج الطبيعي والتدليك الطبي في المنزل للرجال والنساء. تأسس المركز من قبل بن حمو ، معتمدين من أكاديمية التجارة الإلكترونية بمراكش.">
+    <meta name="keywords" content="العلاج الطبيعي, الترويض الطبي, التدليك الطبي, التدليك التايلاندي, العلاج بالكؤوس, العناية بالمسنين, خدمات منزلية, مراكش">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <!-- زر تبديل اللغة -->
+    <div class="lang-switcher">
+        <button id="langBtn" class="lang-btn">
+            <i class="fas fa-globe"></i>
+            <span id="langText">FR</span>
+        </button>
+    </div>
+
+    <!-- رأس الصفحة -->
+    <header class="header">
+        <div class="container">
+            <!-- الشعار الكبير في الوسط -->
+            <div class="logo-container">
+                <div class="main-logo">
+                    <!-- مكان للشعار - يمكنك إضافة صورتك هنا -->
+                    <div class="logo-image-placeholder">
+                        <img src="assets/logo.png" alt="شعار مركز الرحمة للترويض الطبي" class="logo-img">
+                    </div>
+                    <div class="logo-text">
+                        <h1 class="logo-arabic">الرحمة للترويض الطبي</h1>
+                        <h2 class="logo-french">Errahma</h2>
+                        <p class="logo-subtitle">CENTRE DE KINESITHERAPIE & MASSAGE MEDICALE A DOMICILE</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- قائمة التنقل -->
+            <nav class="nav-menu">
+                <button class="nav-toggle" id="navToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-list" id="navList">
+                    <li><a href="index.html" data-ar="الرئيسية" data-fr="Accueil">الرئيسية</a></li>
+                    <li><a href="services-men.html" data-ar="خدمات الرجال" data-fr="Services Hommes">خدمات الرجال</a></li>
+                    <li><a href="services-women.html" data-ar="خدمات النساء" data-fr="Services Femmes">خدمات النساء</a></li>
+                    <li><a href="#testimonials" data-ar="آراء العملاء" data-fr="Témoignages">آراء العملاء</a></li>
+                    <li><a href="#contact" data-ar="اتصل بنا" data-fr="Contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- القسم الرئيسي -->
+    <main>
+        <!-- قسم الترحيب -->
+        <section class="section welcome-section">
+            <div class="container">
+                <div class="welcome-content">
+                    <h1 class="welcome-title" data-ar="مرحباً بكم في مركز الرحمة للترويض الطبي" data-fr="Bienvenue au Centre Errahma de Kinésithérapie">مرحباً بكم في مركز الرحمة للترويض الطبي</h1>
+                    <p class="welcome-text" data-ar="مركز متخصص في العلاج الطبيعي والتدليك الطبي المنزلي. نقدم خدمات صحية وعلاجية احترافية في راحة منزلك، مع التركيز على الرعاية الشخصية والنتائج الفعالة." data-fr="Centre spécialisé en kinésithérapie et massage médical à domicile. Nous offrons des services de santé et de traitement professionnels dans le confort de votre domicile.">مركز متخصص في العلاج الطبيعي والتدليك الطبي المنزلي. نقدم خدمات صحية وعلاجية احترافية في راحة منزلك، مع التركيز على الرعاية الشخصية والنتائج الفعالة.</p>
+                    <div class="welcome-buttons">
+                        <a href="services-men.html" class="btn btn-primary" data-ar="خدمات الرجال" data-fr="Services Hommes">خدمات الرجال</a>
+                        <a href="services-women.html" class="btn btn-secondary" data-ar="خدمات النساء" data-fr="Services Femmes">خدمات النساء</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم عن المركز -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2 class="section-title" data-ar="عن مركز الرحمة" data-fr="À Propos du Centre Errahma">عن مركز الرحمة</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p data-ar="مركز الرحمة للترويض الطبي هو مركز متخصص في العلاج الطبيعي والتدليك الطبي المنزلي، تأسس من قبل بن حمو . نحن نقدم خدمات صحية وعلاجية احترافية في راحة منزلك، مع التركيز على الرعاية الشخصية والنتائج الفعالة." data-fr="Le Centre Errahma de Kinésithérapie est un centre spécialisé en kinésithérapie et massage médical à domicile, fondé par Ben hmou . Nous offrons des services de santé et de traitement professionnels dans le confort de votre domicile, en mettant l'accent sur les soins personnalisés et les résultats efficaces.">مركز الرحمة للترويض الطبي هو مركز متخصص في العلاج الطبيعي والتدليك الطبي المنزلي، تأسس من قبل بن حمو . نحن نقدم خدمات صحية وعلاجية احترافية في راحة منزلك، مع التركيز على الرعاية الشخصية والنتائج الفعالة.</p>
+                        <p data-ar="نحن نؤمن بأن الرعاية الصحية الفعالة تبدأ بالثقة والاحتراف. لذلك، حرصنا على الحصول على شهادات معتمدة في مجالات متعددة من الأكاديمية المرموقة للتجارة الإلكترونية في مراكش." data-fr="Nous croyons que des soins de santé efficaces commencent par la confiance et le professionnalisme. C'est pourquoi nous avons obtenu des certificats accrédités dans de multiples domaines de la prestigieuse E-commerce Academy de Marrakech.">نحن نؤمن بأن الرعاية الصحية الفعالة تبدأ بالثقة والاحتراف. لذلك، حرصنا على الحصول على شهادات معتمدة في مجالات متعددة من الأكاديمية المرموقة للتجارة الإلكترونية في مراكش.</p>
+                    </div>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-home"></i>
+                            <h3 data-ar="خدمات منزلية" data-fr="Services à Domicile">خدمات منزلية</h3>
+                            <p data-ar="نقدم خدماتنا في منزلك لراحتك وخصوصيتك" data-fr="Nous offrons nos services à votre domicile pour votre confort et confidentialité">نقدم خدماتنا في منزلك لراحتك وخصوصيتك</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-certificate"></i>
+                            <h3 data-ar="شهادات معتمدة" data-fr="Certifications">شهادات معتمدة</h3>
+                            <p data-ar="جميع المعالجين لديهم شهادات معتمدة" data-fr="Tous nos thérapeutes sont certifiés">جميع المعالجين لديهم شهادات معتمدة</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-user-md"></i>
+                            <h3 data-ar="فريق محترف" data-fr="Équipe Professionnelle">فريق محترف</h3>
+                            <p data-ar="فريق من المعالجين ذوي الخبرة والكفاءة" data-fr="Équipe de thérapeutes expérimentés et compétents">فريق من المعالجين ذوي الخبرة والكفاءة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم المعالجين -->
+        <section class="section therapists-section">
+            <div class="container">
+                <h2 class="section-title" data-ar="فريقنا الطبي" data-fr="Notre Équipe Médicale">فريقنا الطبي</h2>
+                <div class="therapists-grid">
+                    <div class="therapist-card">
+                        <div class="therapist-image">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <h3 data-ar="بن حمو" data-fr="Ben hmou">بن حمو</h3>
+                        <p class="therapist-role" data-ar="أخصائي علاج طبيعي وتدليك طبي" data-fr="Spécialiste en Kinésithérapie et Massage Médical">أخصائي علاج طبيعي وتدليك طبي</p>
+                        <p class="therapist-certs" data-ar="حاصل على 8 شهادات معتمدة" data-fr="8 certificats accrédités">حاصل على 8 شهادات معتمدة</p>
+                        <a href="services-men.html" class="btn btn-small" data-ar="عرض الخدمات" data-fr="Voir Services">عرض الخدمات</a>
+                    </div>
+                    <div class="therapist-card">
+                        <div class="therapist-image">
+                            <i class="fas fa-user-nurse"></i>
+                        </div>
+                        <h3 data-ar="بشرى الشداقي" data-fr="Chadaki Bouchra">بشرى الشداقي</h3>
+                        <p class="therapist-role" data-ar="أخصائية علاج طبيعي وتدليك طبي" data-fr="Spécialiste en Kinésithérapie et Massage Médical">أخصائية علاج طبيعي وتدليك طبي</p>
+                        <p class="therapist-certs" data-ar="حاصلة على 6 شهادات معتمدة" data-fr="6 certificats accrédités">حاصلة على 6 شهادات معتمدة</p>
+                        <a href="services-women.html" class="btn btn-small" data-ar="عرض الخدمات" data-fr="Voir Services">عرض الخدمات</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم آراء العملاء -->
+        <section id="testimonials" class="section testimonials-section">
+            <div class="container">
+                <h2 class="section-title" data-ar="آراء عملائنا" data-fr="Témoignages de Nos Clients">آراء عملائنا</h2>
+                <p class="section-subtitle" data-ar="ما يقوله عملاؤنا عن خدماتنا" data-fr="Ce que nos clients disent de nos services">ما يقوله عملاؤنا عن خدماتنا</p>
+                
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="client-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="client-info">
+                                <h4 data-ar="أحمد المعروف" data-fr="Ahmed Al-Maarouf">أحمد المعروف</h4>
+                                <p data-ar="مريض علاج طبيعي" data-fr="Patient en Kinésithérapie">مريض علاج طبيعي</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text" data-ar="خدمة ممتازة ومحترفة. الأخصائي حسن كان دقيقاً في تشخيص حالتي ووضع خطة علاج مناسبة. تحسنت حالتي بشكل ملحوظ بعد الجلسات الأولى. أنصح به بشدة." data-fr="Service excellent et professionnel. Le spécialiste Hassan était précis dans le diagnostic de mon état et a établi un plan de traitement approprié. Mon état s'est considérablement amélioré après les premières séances. Je le recommande vivement.">خدمة ممتازة ومحترفة. الأخصائي حسن كان دقيقاً في تشخيص حالتي ووضع خطة علاج مناسبة. تحسنت حالتي بشكل ملحوظ بعد الجلسات الأولى. أنصح به بشدة.</p>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="client-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="client-info">
+                                <h4 data-ar="فاطمة العمراني" data-fr="Fatima Al-Amrani">فاطمة العمراني</h4>
+                                <p data-ar="مستفيدة من التدليك العلاجي" data-fr="Bénéficiaire de Massage Thérapeutique">مستفيدة من التدليك العلاجي</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text" data-ar="الأخصائية بشرى محترفة جداً ومتعاونة. كانت حريصة على راحتي وخصوصيتي. التدليك العلاجي ساعدني كثيراً في التخلص من آلام الظهر المزمنة. شكراً لكم على الخدمة المميزة." data-fr="La spécialiste Bouchra est très professionnelle et coopérative. Elle veillait à mon confort et à ma confidentialité. Le massage thérapeutique m'a beaucoup aidé à me débarrasser des douleurs chroniques au dos. Merci pour le service exceptionnel.">الأخصائية بشرى محترفة جداً ومتعاونة. كانت حريصة على راحتي وخصوصيتي. التدليك العلاجي ساعدني كثيراً في التخلص من آلام الظهر المزمنة. شكراً لكم على الخدمة المميزة.</p>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="client-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="client-info">
+                                <h4 data-ar="محمد الكبير" data-fr="Mohamed Al-Kabir">محمد الكبير</h4>
+                                <p data-ar="ابن مريض مسن" data-fr="Fils de Patient Âgé">ابن مريض مسن</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text" data-ar="خدمة الرعاية المنزلية لوالدي المسن كانت ممتازة. الأخصائي حسن كان متعاوناً ومتفهماً لاحتياجات والدي الصحية. نرى تحسناً ملحوظاً في حالته. الشكر الجزيل للفريق." data-fr="Le service de soins à domicile pour mon père âgé était excellent. Le spécialiste Hassan était coopératif et comprenait les besoins de santé de mon père. Nous constatons une amélioration notable de son état. Merci beaucoup à l'équipe.">خدمة الرعاية المنزلية لوالدي المسن كانت ممتازة. الأخصائي حسن كان متعاوناً ومتفهماً لاحتياجات والدي الصحية. نرى تحسناً ملحوظاً في حالته. الشكر الجزيل للفريق.</p>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="client-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="client-info">
+                                <h4 data-ar="سلمى الرحماني" data-fr="Salma Al-Rahmani">سلمى الرحماني</h4>
+                                <p data-ar="مستفيدة من العناية بالمسنين" data-fr="Bénéficiaire de Soins aux Personnes Âgées">مستفيدة من العناية بالمسنين</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text" data-ar="الأخصائية بشرى تقدم رعاية استثنائية لوالدتي المسنة. كانت صبورة ومحترمة وماهرة في التعامل مع احتياجاتها الصحية المعقدة. نشعر بالاطمئنان بوجودها. ننصح بها بشدة." data-fr="La spécialiste Bouchra fournit des soins exceptionnels à ma mère âgée. Elle était patiente, respectueuse et habile à répondre à ses besoins de santé complexes. Nous nous sentons rassurés par sa présence. Nous la recommandons vivement.">الأخصائية بشرى تقدم رعاية استثنائية لوالدتي المسنة. كانت صبورة ومحترمة وماهرة في التعامل مع احتياجاتها الصحية المعقدة. نشعر بالاطمئنان بوجودها. ننصح بها بشدة.</p>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="client-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="client-info">
+                                <h4 data-ar="يوسف العلوي" data-fr="Youssef Al-Alaoui">يوسف العلوي</h4>
+                                <p data-ar="مريض إصابة رياضية" data-fr="Patient avec Blessure Sportive">مريض إصابة رياضية</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text" data-ar="بعد إصابتي الرياضية، ساعدني الأخصائي حسن على استعادة حركتي وقوتي. خطة العلاج كانت شاملة والنتائج مذهلة. الآن عدت لممارسة رياضتي المفضلة. شكراً جزيلاً." data-fr="Après ma blessure sportive, le spécialiste Hassan m'a aidé à retrouver ma mobilité et ma force. Le plan de traitement était complet et les résultats sont impressionnants. Je suis maintenant de retour à mon sport préféré. Merci beaucoup.">بعد إصابتي الرياضية، ساعدني الأخصائي حسن على استعادة حركتي وقوتي. خطة العلاج كانت شاملة والنتائج مذهلة. الآن عدت لممارسة رياضتي المفضلة. شكراً جزيلاً.</p>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="client-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="client-info">
+                                <h4 data-ar="نادية الفاسي" data-fr="Nadia Al-Fassi">نادية الفاسي</h4>
+                                <p data-ar="مستفيدة من التدليك التايلاندي" data-fr="Bénéficiaire de Massage Thaïlandais">مستفيدة من التدليك التايلاندي</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text" data-ar="التدليك التايلاندي مع الأخصائية بشرى كان تجربة رائعة. شعرت براحة كبيرة وتحسن في مرونة جسمي. الجلسات كانت مريحة وخصوصية. أنصح كل من يعاني من التوتر بتجربة هذه الخدمة." data-fr="Le massage thaïlandais avec la spécialiste Bouchra était une expérience merveilleuse. Je me suis senti très à l'aise et ma flexibilité corporelle s'est améliorée. Les séances étaient confortables et privées. Je recommande à toute personne souffrant de stress d'essayer ce service.">التدليك التايلاندي مع الأخصائية بشرى كان تجربة رائعة. شعرت براحة كبيرة وتحسن في مرونة جسمي. الجلسات كانت مريحة وخصوصية. أنصح كل من يعاني من التوتر بتجربة هذه الخدمة.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم الاتصال -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title" data-ar="تواصل معنا" data-fr="Contactez-nous">تواصل معنا</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p class="contact-intro" data-ar="نحن هنا لمساعدتك! اتصل بنا للحصول على استشارة مجانية أو لحجز موعد." data-fr="Nous sommes là pour vous aider! Contactez-nous pour une consultation gratuite ou pour prendre rendez-vous.">نحن هنا لمساعدتك! اتصل بنا للحصول على استشارة مجانية أو لحجز موعد.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-phone-alt"></i>
+                                <div>
+                                    <h3 data-ar="الهاتف" data-fr="Téléphone">الهاتف</h3>
+                                    <a href="tel:+212775641139">+212 775 641 139</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-whatsapp"></i>
+                                <div>
+                                    <h3 data-ar="الواتساب" data-fr="WhatsApp">الواتساب</h3>
+                                    <a href="https://wa.me/212775641139" target="_blank">+212 775 641 139</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h3 data-ar="البريد الإلكتروني" data-fr="Email">البريد الإلكتروني</h3>
+                                    <a href="mailto:errahma.kine@gmail.com">errahma.kine@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <h3 data-ar="تابعنا على وسائل التواصل الاجتماعي" data-fr="Suivez-nous sur les réseaux sociaux">تابعنا على وسائل التواصل الاجتماعي</h3>
+                            <div class="social-icons">
+                                <a href="https://linktr.ee/errahma.kine" target="_blank" class="social-icon linktree">
+                                    <i class="fas fa-tree"></i>
+                                    <span>Linktree</span>
+                                </a>
+                                <a href="https://www.instagram.com/errahma.kine/?hl=en" target="_blank" class="social-icon instagram">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=61587920035112" target="_blank" class="social-icon facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span>Facebook</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-comments"></i>
+                            <p data-ar="نحن هنا للإجابة على استفساراتكم" data-fr="Nous sommes là pour répondre à vos questions">نحن هنا للإجابة على استفساراتكم</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- تذييل الصفحة -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3 class="logo-arabic">الرحمة للترويض الطبي</h3>
+                    <p class="logo-french">Errahma</p>
+                    <p class="logo-subtitle">CENTRE DE KINESITHERAPIE & MASSAGE MEDICALE A DOMICILE</p>
+                </div>
+                
+                <div class="footer-info">
+                    <p data-ar="© 2026 مركز الرحمة للترويض الطبي. جميع الحقوق محفوظة." data-fr="© 2026 Centre Errahma de Kinésithérapie. Tous droits réservés.">© 2026 مركز الرحمة للترويض الطبي. جميع الحقوق محفوظة.</p>
+                    <p data-ar="مراكش، المغرب" data-fr="Marrakech, Maroc">مراكش، المغرب</p>
+                    <p data-ar="تأسس المركز من قبل بن حمو " data-fr="Fondé par Ben hmou ">تأسس المركز من قبل بن حمو </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
